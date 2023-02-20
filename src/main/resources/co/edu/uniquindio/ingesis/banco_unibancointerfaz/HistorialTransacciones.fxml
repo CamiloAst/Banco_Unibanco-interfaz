@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.ingesis.banco_unibancointerfaz.controller.HistorialTransaccionesController">
+   <children>
+      <TableView fx:id="tblHistorial" prefHeight="44.0" prefWidth="370.0">
+        <columns>
+          <TableColumn fx:id="columnaFecha" prefWidth="75.0" text="Fecha" />
+            <TableColumn fx:id="columnaHora" prefWidth="75.0" text="Hora" />
+            <TableColumn fx:id="columnaValor" prefWidth="75.0" text="Valor" />
+            <TableColumn fx:id="columnaTipo" prefWidth="75.0" text="Tipo" />
+            <TableColumn fx:id="columnaEstado" prefWidth="75.0" text="Estado" />
+        </columns>
+      </TableView>
+   </children>
+</HBox>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.ingesis.banco_unibancointerfaz.controller.RegisterController">
+   <children>
+      <TextField fx:id="txtNombres" layoutX="75.0" layoutY="72.0" promptText="Escriba sus Nombres" />
+      <TextField fx:id="txtApellidos" layoutX="75.0" layoutY="142.0" promptText="Escrbriba sus apellidos" />
+      <TextField fx:id="txtCedula" layoutX="75.0" layoutY="212.0" promptText="Digite su cedula" />
+      <TextField fx:id="txtEmail" layoutX="75.0" layoutY="296.0" promptText="Ecriba su Email" />
+      <TextField fx:id="txtDireccion" layoutX="359.0" layoutY="72.0" promptText="Digite su dirección" />
+      <TextField fx:id="txtClave1" layoutX="359.0" layoutY="142.0" promptText="Digite su contraseña" />
+      <TextField fx:id="txtClaveConfirm" layoutX="359.0" layoutY="225.0" promptText="Confirme su contraseña" />
+      <Button fx:id="btnRegistrar" layoutX="358.0" layoutY="308.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="26.0" prefWidth="150.0" text="Registrar" />
+   </children>
+</AnchorPane>

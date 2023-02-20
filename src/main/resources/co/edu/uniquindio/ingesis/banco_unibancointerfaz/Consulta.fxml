@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="187.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.ingesis.banco_unibancointerfaz.controller.ConsultaController">
+   <children>
+      <SplitPane dividerPositions="0.13855421686746988" orientation="VERTICAL" prefHeight="400.0" prefWidth="495.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #DC6A31;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consulta de saldo" wrappingWidth="394.0884552001953">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="1.0" minWidth="0.0" prefHeight="178.0" prefWidth="494.0">
+               <children>
+                  <Label layoutX="44.0" layoutY="55.0" prefHeight="27.0" prefWidth="202.0" text="Número de cuenta:" textFill="#dc6a31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="135.0" prefHeight="27.0" prefWidth="202.0" text="Número de cédula:" textFill="#dc6a31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="236.0" prefHeight="27.0" prefWidth="202.0" text="Saldo:" textFill="#dc6a31">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtNumCuenta" layoutX="247.0" layoutY="56.0" prefHeight="26.0" prefWidth="209.0" />
+                  <TextField fx:id="txtCedula" layoutX="247.0" layoutY="135.0" prefHeight="26.0" prefWidth="209.0" />
+                  <TextField fx:id="txtSaldo" layoutX="247.0" layoutY="236.0" prefHeight="26.0" prefWidth="209.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

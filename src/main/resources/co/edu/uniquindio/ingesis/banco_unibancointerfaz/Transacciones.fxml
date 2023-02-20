@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.ingesis.banco_unibancointerfaz.controller.TransaccionesController">
+   <children>
+      <Text fill="#dc6a31" strokeType="OUTSIDE" strokeWidth="0.0" text="Seleccione el tipo de transaccion que desea realizar:" wrappingWidth="296.67248821258545">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnDeposito" mnemonicParsing="false" onAction="#OnDepositoButtonClicked" prefHeight="26.0" prefWidth="77.0" text="Deposito" />
+      <Button fx:id="btnRetiro" mnemonicParsing="false" onAction="#onRetiroButtonClicked" prefHeight="26.0" prefWidth="58.0" text="Retiro" />
+      <Button fx:id="btnSolicitarSaldo" mnemonicParsing="false" onAction="#onSolicitarButtonClicked" prefHeight="26.0" prefWidth="104.0" text="Solicitar Saldo" />
+   </children>
+</HBox>
